@@ -1,0 +1,88 @@
+input[type="checkbox"]:checked + #myText{
+  text-decoration: line-through;
+  color: #c3dbd9;
+}
+#mainBody{
+  background-color: #C5DFF8;
+}
+.mainContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.greeting{
+  background-color: #4A55A2;
+  color: #C5DFF8;
+  font-family: 'Raleway', sans-serif;
+  padding: 8px;
+  width: 800px;
+  border-radius: 25px;
+  text-align: center;
+}
+.inputTodo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.dayDateYear{
+  font-family: 'Raleway', sans-serif;
+  background-color: #4A55A2;
+  color: #C5DFF8;
+  padding: 8px;
+  width: 600px;
+  border-radius: 15px;
+  text-align: center;
+}
+.flexContainer{
+  padding: 10px;
+  background-color: #7895CB;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.headerContents{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
+  padding: 10px;
+  gap: 20px;
+}
+
+
+.checkBoxes{
+  padding: 10px;
+}
+.form-check-label{
+  padding: auto;
+  font-family: 'Raleway', sans-serif;
+  color: #01274a;
+  font-weight: bolder;
+  font-size: large;
+}
+.checkBoxTxt{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  font-size: larger;
+  border-radius: 5px;
+  border: #7895CB;
+  height: 35px;
+  width: 250px;
+}
+.btnCss{
+  width: max-content;
+  color: rgb(91, 90, 90);
+}
+.hrWidth{
+  width: 300px;
+}
+
+.footerr{
+  height: 700px;
+}

@@ -1,0 +1,22 @@
+<!-- views/form.ejs -->
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <script>
+    // Function to ask for the user's name using an alert
+    function askForName() {
+      const name = prompt('Please enter your name:');
+      if (name) {
+        // Redirect to the homepage with the name as a query parameter
+        window.location.href = `/?userName=${encodeURIComponent(name)}`;
+      }
+    }
+
+    // Call askForName function when the page loads
+    
+    window.onload = askForName;
+  </script>
+</body>
+</html>
