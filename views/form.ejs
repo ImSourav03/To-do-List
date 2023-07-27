@@ -6,6 +6,7 @@
 <body>
   <script>
     // Function to ask for the user's name using an alert
+    function ok(){}
     function askForName() {
       const name = prompt('Please enter your name:');
       if (name) {
@@ -13,7 +14,6 @@
         window.location.href = `/?userName=${encodeURIComponent(name)}`;
       }
     }
-
     // Call askForName function when the page loads
     
     window.onload = askForName;
