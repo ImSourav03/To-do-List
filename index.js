@@ -21,8 +21,8 @@ function getCurrentDate() {
   }
   app.get('/', (req, res) => {
     const currentDate = getCurrentDate();
-    const userName = req.query.userName || "";
-    res.render('index.ejs', { userName: userName, currentDayDate: currentDate });
+    //const userName = req.query.userName || "";
+    res.render('index.ejs', { currentDayDate: currentDate });
   });
 app.post("/submit",(req,res,next) =>{
     let len=0;
@@ -31,6 +31,7 @@ app.post("/submit",(req,res,next) =>{
     if (newData){
         myArr.push(newData);
         len=myArr.length;
+        //to keep track of the data entered and lenght of the array on terminal
         console.log(myArr);
         console.log(len);
     }
